@@ -1,1 +1,7 @@
-* {}
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #343E3D;
+}
