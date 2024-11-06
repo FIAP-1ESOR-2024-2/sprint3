@@ -7,3 +7,11 @@ Deverá ser apresentado um protótipo das telas do projeto utilizando **Front-En
 - Até 5 páginas ou sessões
 - Navegabilidade e Identidade Visual definida
 - Uma das páginas **DEVE** ser um "Fale conosco" e os dados do formulário **DEVEM** ser corretos ainda que não tenha funcionalidade efetiva
+
+### Páginas
+
+- [x] Fale conosco
+- [ ] Home/Landing Page
+- [ ] ¿?
+- [ ] ¿?
+- [ ] ¿?
