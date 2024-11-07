@@ -12,6 +12,6 @@ Deverá ser apresentado um protótipo das telas do projeto utilizando **Front-En
 
 - [x] Fale conosco
 - [ ] Home/Landing Page
-- [ ] ¿?
-- [ ] ¿?
-- [ ] ¿?
+- [x] Login
+- [x] Cadastro
+- [x] Navbar
