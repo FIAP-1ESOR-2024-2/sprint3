@@ -11,18 +11,15 @@ class Navbar extends HTMLElement {
                             <span class="fs-3 nav-text">Agrotech</span>
                         </a>
                     </div>
-
-                    <!-- Navegação -->
-                    <div class="d-flex align-items-center" style="margin-right: 100px;">
+                    
+                    <div class="d-flex align-items-center">
+                        <!-- Fale Conosco -->
                         <ul class="list-unstyled m-0">
-                            <li class="nav-text">
+                            <li class="nav-text me-5">
                                 <a href="./contact.html" class="nav-text">Fale Conosco</a>
                             </li>
                         </ul>
-                    </div>
-
-                    <!-- Login -->
-                    <div class="d-flex align-items-center">
+                        <!-- Login -->
                         <a href="./login.html" class="d-flex align-items-center">
                             <span class="me-2 nav-text">Entrar</span>
                             <i class="ph ph-sign-in nav-text"></i>

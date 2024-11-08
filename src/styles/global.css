@@ -23,3 +23,17 @@ a {
 .nav-text {
     color: #FFFFFF;
 }
+
+.max-temp {
+    background-color: #FA7D7D;
+    max-width: 4rem;
+}
+
+.min-temp {
+    background-color: #70BF79;
+    max-width: 4rem;
+}
+
+.temp-info {
+    min-width: 14rem;
+}
