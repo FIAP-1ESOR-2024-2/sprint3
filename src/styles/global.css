@@ -38,10 +38,9 @@ a {
     min-width: 14rem;
 }
 
-.footer {
-    position: absolute;
+ footer {
+    position: fixed;
     bottom: 0;
-    left: 0;
-    z-index: 10;
-    height: auto;
+    width: 100%;
+    left:0;
 }
