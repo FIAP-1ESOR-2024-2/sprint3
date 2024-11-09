@@ -2,7 +2,7 @@ class Footer extends HTMLElement {
     constructor() {
         super();
         this.innerHTML = `
-     <footer class="py-3 px-3 bg-secondary shadow-sm">
+     <footer class="p-3 bg-secondary shadow-sm">
         <div class="row">
             <div class="col-6">
                 <div class="d-flex align-items-center">
@@ -11,14 +11,14 @@ class Footer extends HTMLElement {
                         <span class="fs-3 nav-text">Agrotech</span>
                     </a>
                 </div>
-                <p>© Copyright 2024 Agrotech</p>
+                <p>Â© Copyright 2024 Agrotech</p>
             </div>
             <div class="col-4">                
                 <ul style="color: white">
                     <li><a href="./contact.html" class="nav-text">Fale Conosco</a></li>
-                    <li><a href="#" class="nav-text">Sobre nós</a></li>
-                    <li><a href="#" class="nav-text">Políticas de privacidade</a></li>
-                    <li><a href="#" class="nav-text">Termos de utilização</a></li>
+                    <li><a href="#" class="nav-text">Sobre nÃ³s</a></li>
+                    <li><a href="#" class="nav-text">PolÃ­ticas de privacidade</a></li>
+                    <li><a href="#" class="nav-text">Termos de utilizaÃ§Ã£o</a></li>
                 </ul>
             </div>            
         </div>
