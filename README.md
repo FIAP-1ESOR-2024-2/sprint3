@@ -8,7 +8,7 @@ Deverá ser apresentado um protótipo das telas do projeto utilizando **Front-En
 - Navegabilidade e Identidade Visual definida
 - Uma das páginas **DEVE** ser um "Fale conosco" e os dados do formulário **DEVEM** ser corretos ainda que não tenha funcionalidade efetiva
 
-## Páginas
+#### Páginas
 
 - [x] Fale conosco
 - [x] Home/Landing Page
@@ -16,6 +16,6 @@ Deverá ser apresentado um protótipo das telas do projeto utilizando **Front-En
 - [x] Cadastro
 
 
-## Componentes
+#### Componentes
 - [x] Navbar
 - [x] Footer
