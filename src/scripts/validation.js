@@ -1,9 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const form = document.getElementById("registerForm");
-  const emailInput = document.getElementById("email");
-  const confirmEmailInput = document.getElementById("confirmEmail");
-  const passwordInput = document.getElementById("password");
-  const confirmPasswordInput = document.getElementById("confirmPassword");
+    const form = document.getElementById("registerForm");
+    const emailInput = document.getElementById("email");
+    const confirmEmailInput = document.getElementById("confirmEmail");
+    const passwordInput = document.getElementById("password");
+    const confirmPasswordInput = document.getElementById("confirmPassword");
+
 
   form.addEventListener("submit", (event) => {
       event.preventDefault();
@@ -53,3 +54,73 @@ document.addEventListener("DOMContentLoaded", () => {
       errorMessages.forEach((msg) => msg.remove());
   }
 });
+
+var emailLogin = document.getElementById("emailLogin");
+var senhaLogin = document.getElementById("senhaLogin");
+var btnEntrar = document.getElementById('btnEntrar');
+
+function ValidateLogin() {
+    var isValid = false;
+
+    const emailValor = emailLogin.value.trim();
+    const senhaValor = senhaLogin.value.trim();
+
+
+    if (emailValor !== "" && senhaValor !== "") {
+        isValid = true;
+    }
+
+    if (!isValid) {
+        BlurCampos(emailLogin);
+        BlurCampos(senhaLogin);
+    }
+
+    alert('Email ou Senha incorretos!');
+
+    return isValid;
+}
+
+btnEntrar.addEventListener('click', () => {
+    if (ValidateLogin()) {
+        window.location.href = './index.html';
+    }
+});
+
+function BlurCampos(campo) {
+
+    campo.addEventListener(
+        "focus",
+        function (event) {
+            event.target.style.background = "pink";
+        },
+        true,
+    );
+
+    campo.addEventListener(
+        "blur",
+        function (event) {
+            event.target.style.background = "pink";
+        },
+        true,
+    );
+}
+
+function BlurRemove(campo) {
+
+    campo.addEventListener(
+        "focus",
+        function (event) {
+            event.target.style.background = "pink";
+        },
+        false,
+    );
+
+    campo.addEventListener(
+        "blur",
+        function (event) {
+            event.target.style.background = "";
+        },
+        false,
+    );
+}
+
