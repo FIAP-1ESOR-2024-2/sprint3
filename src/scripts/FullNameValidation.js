@@ -20,7 +20,7 @@ function validateName(nameInput) {
     if (words[0].length < 2 || words[1].length < 2) {
         return {
             isValid: false,
-            message: 'Ambos os nomes devem ter pelo menos duas letras'
+            message: 'Ambos os nomes devem ter pelo menos duas letras.'
         };
     }
     
